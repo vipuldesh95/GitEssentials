@@ -1,0 +1,32 @@
+On command Prompt Window:
+
+	1. To know the git version installed:
+    git --version
+
+	2. Configuring .gitconfig file with various fields 
+	a. Username : $ git config --global user.name "Your Name"
+	b. Email: $ git config --global user.email "Your mail ID"
+	c. Display current configuration settings on your GIT:  $ git config --list 
+	(Git will output a list of all configuration settings currently set on your system.)
+	
+	3. To display the already set config settings on your GIT:
+	a. $ git config user.name - displays user name set in .gitconfig
+	b. $ git config user.email - displays user emain set in .gitconfig
+
+	4. To go in the file path where this .gitconfile is present
+	$ cd ~
+	
+	5. List the file content in the path:
+	$ ls -la
+	
+	6. To open the any file to view its content
+	cat .gitconfig \
+	
+	7. To set your default editor for Git Popups:
+	$ git config --global core.editor "notepad.exe" 
+	
+	8. To enable colored output for Git commands globally on your system:
+	$ git config --global color.ui true
+
+	9. To list down common GIT commands for various situations
+  $ git help 
